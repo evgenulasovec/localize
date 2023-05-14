@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+}
+header {
+  padding-top: 120px;
+  padding-bottom: 145px;
+  background-image: url(../img/bg-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  width: 754px;
+  height: 63px;
+  margin-bottom: 27px;
+  font-weight: 500px;
+  font-size: 54px;
+  line-height: 63px;
+  color: #003395;
+}
+header p {
+  width: 899px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+nav {
+  background: #003395;
+  padding-top: 27px;
+  padding-bottom: 26px;
+}
+nav a {
+  height: 22px;
+  margin-right: 62px;
+  text-decoration-line: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 207.9%;
+  color: white;
+  letter-spacing: 2px;
+}
+main {
+  padding-top: 56px;
+  padding-bottom: 62px;
+}
+.cont {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+.left {
+  display: inline-block;
+  max-width: 754px;
+  margin-left: auto;
+}
+.right {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 362px;
+  margin-right: auto;
+  margin-left: 25px;
+}
+.top {
+  border: 2px solid #33008d;
+  padding: 19px 19px 26px 19px;
+  margin: 0 auto;
+  height: 244px;
+}
+.bottom {
+  margin-top: 55px;
+  padding: 22px 19px;
+  border: 2px solid #33008d;
+  height: 352.6px;
+}
+.top h3 {
+  padding: 14px 17px;
+  background-color: #24b0ff;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.top p {
+  padding: 14px 19px 26px 19px;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 163.35%;
+}
+.bottom h3 {
+  background-color: #24b0ff;
+  padding: 16.66px 17px 10.86px;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 163.35%;
+  text-decoration-line: underline;
+  color: #30233d;
+  width: 279px;
+  height: 220px;
+}
+h2 {
+  padding-top: 13px;
+  padding-bottom: 15px;
+  border-top: 2px solid #003395;
+  border-bottom: 2px solid #003395;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 32px;
+  color: #003395;
+}
+.left p {
+  margin-top: 16px;
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #30233d;
+}
+footer {
+  background: linear-gradient(180deg, #003395 0%, #00205f 100%);
+  padding-top: 45px;
+  padding-bottom: 83px;
+  text-align: right;
+}
+footer p {
+  font-weight: 400;
+  font-size: 11.7px;
+  line-height: 163.35%;
+  color: #fcfcfc;
+}
